@@ -30,10 +30,19 @@ check whehter a node is leave node
 print(node.is_leaf())
 ```
 
+### Some Info to CS579
+* read ```_build_naive()``` and ```find()``` of STree.py would be very helpful for understanding.
+* Pseudo code of Depth First Search(DFS)
+```
+'''
+    pseudo code of DFS
+'''
+def DFS(node):
+  if node=NULL:
+    return
+  for e in node.sub-nodes:
+    DFS(node)
+  return
 
-### Others
-read ```_build_naive()``` and ```find()``` of STree.py would be very helpful for understanding.
-
-
-
+```
 
